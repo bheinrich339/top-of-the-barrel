@@ -1,0 +1,256 @@
+/*
+   NETFLIX COLORS
+   e50914 = red
+   221f1f = greyish black
+*/
+
+* {
+   margin: 0;
+   padding: 0;
+   border: none;
+}
+
+.badge {
+   width: 100%;
+   background-color: rgba(0, 0, 0, .5);
+   margin-bottom: 25px;
+}
+
+.badge img {
+   max-width: 25%;
+}
+
+@font-face {
+    font-family: 'Netflix';
+    src: url(../fonts/netflix.ttf);
+}
+
+.search_info {
+   margin-bottom: 15px;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+body {
+   color: #efefef;
+}
+
+.uppercase {
+   text-transform: uppercase;
+}
+
+.center-block {
+   display: block;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+header {
+   color: #e50914;
+   background-color: #111;
+   border-bottom: 1px solid #efefef;
+}
+
+h1 {
+   font-family: Impact, sans-serif, serif;
+   font-size: 3em;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding: 15px 0 15px;
+}
+
+h2 {
+   margin-bottom: 25px;
+}
+
+footer {
+   border-top: 1px solid #efefef;
+   background-color: #111;
+   padding: 28px 0 14px;
+   font-size: 1.1em;
+   font-family: 'Gill Sans', Helvetica, Arial, sans-serif, serif;
+}
+
+main {
+   background-image: url(../images/film-bg.jpg);
+   background-color: #111;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   padding: 10px 20px 40px;
+}
+
+.icon {
+   border-radius: 5px;
+   width: 50%;
+   background-color: #e50914;
+   font-size: 5em;
+   border: 3px solid #efefef;
+}
+
+.button {
+   margin-top: 35px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background-color:#e50914;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#efefef;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.button:hover {
+	background-color:#cd0610;
+   text-decoration: none;
+   color: #efefef;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+#egg {
+   cursor: pointer;
+}
+
+.modal-body {
+   color: #222;
+}
+
+input[type=text] {
+   padding: 2px;
+   color: #222;
+}
+
+.search_btn {
+   color: #222;
+   padding: 2px 8px 2px;
+   transition: .25s linear background-color, .25s linear color;
+}
+
+.search_btn:hover {
+   background-color: #e50914;
+   color: #efefef;
+   transition: .25s linear background-color, .25s linear color;
+}
+
+.search_btn:active {
+   background-color: #e50914;
+   color: #efefef;
+   position: relative;
+   top: 1px;
+}
+
+::-webkit-input-placeholder {
+  color: #555;
+}
+::-moz-placeholder {
+  color: #555;
+}
+:-ms-input-placeholder {
+  color: #555;
+}
+:-moz-placeholder {
+  color: #555;
+}
+
+.errors {
+   font-weight: bold;
+   color: red;
+   margin-top: 15px;
+}
+
+#title_pic img {
+   max-width: 100%;
+   padding-top: 25px;
+}
+
+ul li {
+   list-style-type: none;
+   padding: 2px 0;
+}
+
+#time_alert {
+   color: #e50914;
+   font-family: Impact, sans-serif, serif;
+}
+
+/****** timer stuff *********/
+
+#time_alert {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.row p {
+   margin-top: 10px;
+}
+
+#time_alert h2 {
+   font-size: 1.4em;
+}
+
+#timer {
+   color: #fff;
+   display: inline-block;
+   font-weight: bold;
+   text-align: center;
+   font-size: 15px;
+}
+
+#timer > div {
+   padding: 10px;
+   border-radius: 3px;
+   background: #e50914;
+   display: inline-block;
+}
+
+#timer div > span {
+   padding: 5px;
+   border-radius: 3px;
+   background: #efefef;
+   display: inline-block;
+   color: #222;
+}
+
+.smalltext {
+   padding-top: 5px;
+   font-size: .5em;
+}
+
+/******* link styles ******/
+
+a {
+   color: #e50914;
+}
+
+a:hover {
+   color: #e50914;
+}
+
+/****** nav styles ******/
+
+#mobile_nav {
+   display: none;
+}
+
+.slicknav_menu {
+   display: block;
+   background-color: #111;
+   border-bottom: 1px solid #efefef;
+}
+
+.slicknav_btn {
+   background-color: rgba(0,0,0,0);
+}
